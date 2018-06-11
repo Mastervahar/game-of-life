@@ -13,8 +13,10 @@ describe "A grid of cells" do
     expect(grid.height).to_not be_nil
   end
 
-  xit 'exposes a collection of cells' do
-
+  it 'exposes a collection of cells' do
+    grid = Grid.new
+    grid.build
+    expect(grid.cells).to_not be_empty
   end
 
   xit 'has a tick method' do
