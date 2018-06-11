@@ -9,7 +9,7 @@ describe "Conway's game of life" do
 
   it 'is instantiated with a grid' do
     game.instantiate
-    exect(game).to respond_to(:grid)
+    expect(game).to respond_to(:grid)
   end
 
   xit 'provides a way to obtain the grid it was instantiated with' do
