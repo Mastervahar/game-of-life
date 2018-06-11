@@ -14,6 +14,7 @@ class Cell
   end
 
   def tick
+    
   end
 
   def alive?

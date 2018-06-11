@@ -25,7 +25,6 @@ describe "A grid of cells" do
   end
 
   xit 'the tick method changes the state of the grid' do
-
   end
 
   # o..
