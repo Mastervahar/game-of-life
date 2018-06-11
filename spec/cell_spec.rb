@@ -23,8 +23,9 @@ describe "A cell" do
     expect(cell).to respond_to(:neighbors)
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    cell = Cell.new
+    expect(cell).to respond_to(:tick)
   end
 
   describe 'after a tick' do
