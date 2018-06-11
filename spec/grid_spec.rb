@@ -6,8 +6,10 @@ describe "A grid of cells" do
     Grid.new
   end
 
-  xit 'needs a width and height to be created' do
-
+  it 'needs a width and height to be created' do
+    grid = Grid.new
+    expect(grid.width).to_not be_nil
+    expect(grid.height).to_not be_nil
   end
 
   xit 'exposes a collection of cells' do
