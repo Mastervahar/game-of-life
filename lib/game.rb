@@ -12,4 +12,5 @@ class Game
     @grid
   end
 
+
 end

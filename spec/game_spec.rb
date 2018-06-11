@@ -17,8 +17,8 @@ describe "Conway's game of life" do
     expect(game.getGrid).to_not be_nil
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    expect(game).to respond_to(:tick)
   end
 
   xit 'the tick method changes the state of the grid' do
