@@ -8,6 +8,7 @@ describe "A grid of cells" do
 
   it 'needs a width and height to be created' do
     grid = Grid.new
+    grid.build
     expect(grid.width).to_not be_nil
     expect(grid.height).to_not be_nil
   end
