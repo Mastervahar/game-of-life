@@ -11,4 +11,8 @@ class Grid
     @cells = [0..(@width*@height)-1]
   end
 
+  def tick
+
+  end
+
 end
