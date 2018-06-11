@@ -14,7 +14,9 @@ class Cell
   end
 
   def tick
-    
+    if @neighbors.size < 2
+      @alive = false
+    end
   end
 
   def alive?
