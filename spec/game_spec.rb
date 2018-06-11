@@ -13,7 +13,8 @@ describe "Conway's game of life" do
   end
 
   it 'provides a way to obtain the grid it was instantiated with' do
-    expect(game.getGrid()).to_not be_nil
+    game.instantiate
+    expect(game.getGrid).to_not be_nil
   end
 
   xit 'has a tick method' do

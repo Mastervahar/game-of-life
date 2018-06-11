@@ -8,4 +8,8 @@ class Game
     @grid = []
   end
 
+  def getGrid
+    @grid
+  end
+
 end
