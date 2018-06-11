@@ -12,5 +12,7 @@ class Game
     @grid
   end
 
+  def tick
+  end
 
 end
