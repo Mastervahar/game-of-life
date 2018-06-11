@@ -18,8 +18,9 @@ describe "A cell" do
     expect(cell).to_not be_alive
   end
 
-  xit 'has neighbors, which is initially an empty array' do
-
+  it 'has neighbors, which is initially an empty array' do
+    cell = Cell.new
+    expect(cell).to respond_to(:neighbors)
   end
 
   xit 'has a tick method' do
