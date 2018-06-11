@@ -8,7 +8,7 @@ class Grid
   def build
     @width = 3
     @height = 3
-    @cells = [0..@width*@height]
+    @cells = [0..(@width*@height)-1]
   end
 
 end

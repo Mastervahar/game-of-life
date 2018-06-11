@@ -19,8 +19,9 @@ describe "A grid of cells" do
     expect(grid.cells).to_not be_empty
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    grid = Grid.new
+    expect(grid.tick).to exist
   end
 
   xit 'the tick method changes the state of the grid' do
