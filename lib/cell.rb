@@ -2,9 +2,11 @@
 class Cell
 
   attr_reader :alive
+  attr_reader :neighbors
 
   def create
     @alive = true
+    @neighbors = []
   end
 
   def dies
