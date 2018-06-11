@@ -7,8 +7,14 @@ class Cell
     @alive = true
   end
 
+  def dies
+    @alive = false
+  end
+
   def alive?
     @alive
   end
+
+
 
 end
